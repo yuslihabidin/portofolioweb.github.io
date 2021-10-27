@@ -1,0 +1,105 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+.header {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 100;
+    float: left;
+    font-family: courier;
+    color: white;
+    background-color: #CDF2CA;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #CDF2CA;
+    border-bottom: 30px solid #6ECB63;
+    z-index: 1;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: #CDF2CA;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom h2 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: comic sans-serif;
+    color: #6ECB63;
+    display: flex;
+}
+
+.kolom p {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: black;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
